@@ -1,0 +1,107 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 600px;
+    margin: 10px;
+    gap: 10px;
+    background-color: white;
+    padding: 15px;
+    margin-inline:auto;
+
+}
+
+.header{
+    flex: 0.1;
+    background-color: rgb(152, 140, 248);
+    padding: 15px;
+    text-align: center;
+}
+
+.middle{
+  flex:0.6;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  text-align: center;
+}
+
+.last{
+  flex: 0.2;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  text-align: center;
+}
+
+.footer{
+  background-color: orange;
+  text-align: center;
+  flex: 0.13;
+}
+
+.left{
+  flex:0.5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.right{
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero{
+  background-color: rgb(194, 207, 235);
+  text-align: center;
+  flex: auto;
+  
+}
+.hero h2{
+  align-items: center;
+}
+
+.sidebar{
+  background-color: rgb(78, 236, 78);
+  align-items: center;
+  flex: auto;
+}
+
+.main-content{
+  background-color: rgb(199, 199, 49);
+  flex: 3;
+  
+}
+
+.extra-content{
+  background-color: rgb(151, 118, 123);
+  flex: auto;
+}
+
+.last-left{
+  background-color: rgb(228, 123, 123);
+  flex: 4;
+}
+
+.last-right{
+  background-color: rgb(169, 188, 185);
+  flex: auto;
+  
+}
+
+
+h2{
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+}
